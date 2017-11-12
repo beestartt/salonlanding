@@ -11,6 +11,31 @@ Last change:	22/07/17 [first release]
 
 /* Personalization by BeeStart */
 
+.navbar-header img {
+    margin-top: -10px;
+    max-height: 60px;
+    height: auto;
+    width: auto;
+}
+
+@media (max-width: 990px) {
+    .navbar-header img {
+        max-height: 50px;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 680px) {
+    .navbar-header img {
+        margin-top: -10px;
+    }
+}
+
+.scroll .navbar-header img {
+    width: auto !important;
+    max-height: 50px;
+}
+
 .ref h3 {
     margin-bottom: 45px;
 }
