@@ -36,8 +36,16 @@ Last change:	22/07/17 [first release]
     max-height: 50px;
 }
 
-.ref h3 {
+#servicos .ref h3 {
     margin-bottom: 45px;
+}
+
+#download {
+    background-color: #fd864c;
+}
+
+#download .google-play-badge img {
+    max-height: 70px;
 }
 
 footer .logo {
