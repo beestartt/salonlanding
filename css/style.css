@@ -8,3 +8,11 @@ Last change:	22/07/17 [first release]
 @import url(bootstrap.css);
 @import url(slick.css);
 @import url(layout.css);
+
+/* Personalization by BeeStart */
+
+.ref h3 {
+    margin-bottom: 45px;
+}
+
+/* End personalization */
