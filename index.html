@@ -219,20 +219,21 @@
                         </div>
                     </div>
                     <div class="col-md-9 col-sm-8">
-                        <form>
+                        <form action="https://formspree.io/jose@beestart.com.br" method="POST">
+                            <input type="hidden" name="_language" value="pt" />
                             <div class="row">
                                 <div class="col-md-4">
-                                    <input type="text" placeholder="Seu nome completo">
+                                    <input type="text" name="name" placeholder="Seu nome completo">
                                 </div>
                                 <div class="col-md-4">
-                                    <input type="text" placeholder="Seu endereço de e-mail">
+                                    <input type="text" name="email" placeholder="Seu endereço de e-mail">
                                 </div>
                                 <div class="col-md-4">
-                                    <input type="text" placeholder="Assunto">
+                                    <input type="text" name="_subject" placeholder="Assunto">
                                 </div>
                                 <div class="col-md-12">
-                                    <textarea placeholder="Escreva sua mensagem aqui"></textarea>
-                                    <a href="#" class="btn orange-btn-line pull-right">ENVIAR</a>
+                                    <textarea name="message" placeholder="Escreva sua mensagem aqui"></textarea>
+                                    <button type="submit" href="#" class="btn orange-btn-line pull-right">ENVIAR</a>
                                 </div>
                             </div>
                         </form>
