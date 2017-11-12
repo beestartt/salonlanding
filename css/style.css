@@ -42,10 +42,22 @@ Last change:	22/07/17 [first release]
 
 #download {
     background-color: #fd864c;
+    background-position: center;
+    background-size: cover;
+}
+
+#download h2,
+#download p{
+    color: #FFFFFF;
 }
 
 #download .google-play-badge img {
     max-height: 70px;
+}
+
+footer {
+    background-color: #F2F2F2;
+    padding: 0px 0px 20px 0px;
 }
 
 footer .logo {
